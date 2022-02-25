@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav id="navbar"> 
+        <button class="nav-button" onclick="adddiv()">Add Div</button>
+        <button  class="nav-button" onclick="removediv()">Remove Div</button>
+     
+    </nav>
+    <div id="main-container">
+    <div id="items">
+    <div class="same-type">
+        <div class="item-name">Item 1</div>
+        <input  name="item1-amount" class="input-box" type="number" placeholder="select">
+        <button id="item1-amount" onclick="item">
+            OK
+        </button>
+    </div>
+    <div class="same-type">
+        <div class="item-name">Item 2</div>
+        <input name="item2-amount" class="input-box" type="number" placeholder="select">
+        <button id="item2-amount">
+            OK
+        </button>
+    </div>
+    <div class="same-type">
+        <div class="item-name">Item 3</div>
+        <input  name="item3-amount" class="input-box" type="number" placeholder="select">
+        <button id="item3-amount">
+            OK
+        </button>
+    </div>
+   
+    </div>
+    <div id="display-box">
+ 
+<div id="get-price-box">
+    <div id="display-price"></div>
+<button id="get-sum-button"> Get Sum</button>
+    </div>
+    <div id="display-selected-item-amount">
+        <p>fvdfvdfvdvv</p>
+    </div>
+</div>
+</div>
+    <script src="script.js"></script>
+</body>
+</html>
